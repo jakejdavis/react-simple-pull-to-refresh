@@ -3,7 +3,7 @@ import { isTreeScrollable } from '../isScrollable';
 import RefreshingContent from './refreshing-content';
 import PullingContent from './pulling-content';
 import { DIRECTION } from '../types';
-import '../styles/main.scss';
+import '../styles/main.css';
 
 interface PullToRefreshProps {
   isPullable?: boolean;
